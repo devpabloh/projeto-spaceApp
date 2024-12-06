@@ -7,7 +7,7 @@ const HeaderEstilizado = styled.header`
     justify-content: space-between;
 
     img{
-        min-width: 212px;
+        max-width: 212px;
     }
 `
 
