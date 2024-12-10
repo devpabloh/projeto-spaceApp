@@ -1,15 +1,18 @@
-import styled from "styled-components"
+import { styled } from "styled-components"
 import Titulo from "../Titulo"
 import Tags from "./Tags"
 import Populares from "./Populares"
+import Imagem from "./Imagem"
 
 const GaleriaContainer = styled.div`
     display: flex;
     gap: 24px;
 `
+
 const SecaoFluida = styled.section`
     flex-grow: 1;
 `
+
 const ImagensContainer = styled.section`
     display: flex;
     justify-content: space-between;
@@ -17,8 +20,7 @@ const ImagensContainer = styled.section`
     gap: 24px;
 `
 
-
-const Galeria = ({ fotos = [] })=>{
+const Galeria = ({ fotos = [] }) => {
     return (
         <>
             <Tags />
